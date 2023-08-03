@@ -129,6 +129,4 @@ document.addEventListener("DOMContentLoaded", function() {
     const detallesPelicula = document.getElementById("detalles-pelicula");
     detallesPelicula.innerHTML = "<p>Película no encontrada</p>";
 }
-
-
 });
