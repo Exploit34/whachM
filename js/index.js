@@ -5,16 +5,14 @@ document.addEventListener("DOMContentLoaded", function() {
     menuToggler.addEventListener("click", function() {
         menuDesplegable.classList.toggle("menu-desplegado");
     });
-    
 });
-
-
 
 // Función para obtener el valor del parámetro en la URL por su nombre
 function getParameterByName(name) {
     const url = new URL(window.location.href);
     return url.searchParams.get(name);
 }
+
 
 // Obtenemos todos los botones de "Ver detalles"
 const buttons = document.querySelectorAll(".details-button");
@@ -29,11 +27,6 @@ buttons.forEach((button) => {
         localStorage.setItem("peliculaSeleccionada", peliculaSeleccionada);
 
         // Redirigimos a la página de detalle
-        window.location.href = "./detalle2.html";
+        window.location.href = "./js/detalle.html";
     });
-   
 });
-
-
-
-

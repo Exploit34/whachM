@@ -60,6 +60,27 @@ document.addEventListener("DOMContentLoaded", function() {
             año: 2018,
             trailer: "https://www.youtube.com/embed/Lsglk8dqOJI",
         },
+        {
+            nombre: "PeliculaTitanic",
+            imagen: "../img/titanic.jpg",
+            descripcion: "La trama, una epopeya4 romántica, relata la relación de Jack Dawson y Rose DeWitt Bukater, dos jóvenes que se conocen y se enamoran a bordo del transatlántico RMS Titanic en su viaje inaugural desde Southampton, Inglaterra a Nueva York, EE. UU., en abril de 1912.",
+            año: 2018,
+            trailer: "https://www.youtube.com/embed/tA_qMdzvCvk",
+        },
+        {
+            nombre: "Avengers",
+            imagen: "../img/avengers.jpg",
+            descripcion: "Los Vengadores restantes deben encontrar una manera de recuperar a sus aliados para un enfrentamiento épico con Thanos, el malvado que diezmó el planeta y el universo.",
+            año: 2018,
+            trailer: "https://www.youtube.com/embed/PyakRSni-c0",
+        },
+        {
+            nombre: "Spider-man",
+            imagen: "../img/intento.jpg",
+            descripcion: "Tras descubrirse la identidad secreta de Peter Parker como Spider-Man, la vida del joven se vuelve una locura. Peter le pide ayuda al Doctor Strange para recuperar su vida, pero algo sale mal y provoca una fractura en el multiverso",
+            año: 2021,
+            trailer: "https://www.youtube.com/embed/SkmRT3M4Vx4",
+        },
     ];
 
     // Buscamos la película seleccionada en el arreglo de películas
@@ -112,6 +133,7 @@ document.addEventListener("DOMContentLoaded", function() {
             ventanaNueva.document.close();
         }
     });
+
 } else {
     // Si la película no se encuentra en el arreglo, muestra un mensaje de error
     const detallesPelicula = document.getElementById("detalles-pelicula");
