@@ -9,17 +9,17 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-md navbar-dark ">
             <div class="container">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="/">Inicio</a>
+                        <a class="nav-link" href="../index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/series">Series</a>
+                        <a class="nav-link" href="./series.html">Series</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="" class="activo">Películas</a>
+                        <a class="nav-link" href="#" class="activo">Películas</a>
                     </li>
                 </ul>
     
@@ -30,10 +30,11 @@
                 </button>
     
                 <div class="collapse navbar-collapse" id="menu-desplegable">
-                    <form class="form-inline ml-auto">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
-                    </form>
+                  <form id="search-form" class="form-inline ml-auto">
+                    <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="Buscar películas" aria-label="Buscar">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                </form>
+                
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -51,7 +52,7 @@
             </div>
         </nav>
     
-      <h1>Películas</h1>
+      <h1>Sagas de Películas</h1>
     </header>
     
     <main>
@@ -125,6 +126,6 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

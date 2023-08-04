@@ -69,6 +69,8 @@ document.addEventListener("DOMContentLoaded", function() {
             trailer2:"https://www.youtube.com/embed/e2Xlgz6dblo",
         },
     ];
+    
+
 
     // Buscamos la película seleccionada en el arreglo de películas
     const pelicula = peliculas.find((p) => p.nombre === peliculaSeleccionada);
@@ -90,7 +92,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 <button id="reproducir-trailer">Reproducir</button>
             </div>
         `;
-
+        
+      
           // Agregar evento clic al botón "Reproducir"
     const reproducirButton = document.getElementById("reproducir-trailer");
     reproducirButton.addEventListener("click", () => {
@@ -129,4 +132,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const detallesPelicula = document.getElementById("detalles-pelicula");
     detallesPelicula.innerHTML = "<p>Película no encontrada</p>";
 }
+
+
 });
+
+
+
